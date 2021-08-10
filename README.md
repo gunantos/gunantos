@@ -10,8 +10,7 @@
 - ⚡ Excited to create open-source projects
 - 🌱 I’m currently learning React
 - 💕 I'm currently fall in love with Flutter
-- 📫 You can reach me at <a href="mailto:gunanto.simamora@gmail.com">gunanto.simamora@gmail.com</a>
-  📫 You can reach me at <a href="mailto:gunanto@app-kita.com">gunanto@app-kita.com</a>
+- 📫 You can reach me at <a href="mailto:gunanto.simamora@gmail.com">gunanto.simamora@gmail.com</a> or <a href="mailto:gunanto@app-kita.com">gunanto@app-kita.com</a>
 
 ### Connect with me:
 
