@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/website?label=gunantos.com&style=for-the-badge&url=https%3A%2F%2Fgunantos.com)](https://app-kita.com)
 
-## I'm a Son, Student, Developer, and Programmer!!
+## I'm a Developer, and Programmer!!
 
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2021 Goals: Contribute more to Open Source projects
