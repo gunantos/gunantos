@@ -6,7 +6,7 @@
 ## I'm a Developer, and Programmer!!
 
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2021 Goals: Contribute more to Open Source projects
+- 🥅 2022 Goals: Contribute more to Open Source projects
 - 🔭 I’m currently working on my personal projects
 - ⚡ Excited to create open-source projects
 - 🌱 I’m currently learning React
