@@ -3,16 +3,6 @@
 [![Website](https://img.shields.io/website?label=app-kita.com&style=for-the-badge&url=https%3A%2F%2Fapp-kita.com)](https://app-kita.com)
 [![Website](https://img.shields.io/website?label=gunantos.github.io&style=for-the-badge&url=https%3A%2F%2Fgunantos.github.io)](https://gunantos.github.io)
 
-## I'm a Developer, and Programmer!!
-
-- 👯 I’m looking to collaborate with other content creators
-- 🥅 2022 Goals: Contribute more to Open Source projects
-- 🔭 I’m currently working on my personal projects
-- ⚡ Excited to create open-source projects
-- 🌱 I’m currently learning React
-- 💕 I'm currently fall in love with Flutter
-- 📫 You can reach me at <a href="mailto:gunanto.simamora@gmail.com">gunanto.simamora@gmail.com</a> or <a href="mailto:gunanto@app-kita.com">gunanto@app-kita.com</a>
-
 ### Connect with me:
 
 [<img align="left" alt="gunantos.com" height="25px" src="https://raw.githubusercontent.com/gunantos/gunantos/main/social/web.png" />][website]
