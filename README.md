@@ -1,6 +1,6 @@
 ### Hi there, I'm Gunanto Simamora - [appkita][website] 👋
 
-[![Website](https://img.shields.io/website?label=app-kita.com&style=for-the-badge&url=https%3A%2F%2Fapp-kita.com)](https://app-kita.com)
+[![Website](https://img.shields.io/website?label=appkita.site&style=for-the-badge&url=https%3A%2F%2Fapp-kita.com)](https://appkita.site)
 [![Website](https://img.shields.io/website?label=gunantos.github.io&style=for-the-badge&url=https%3A%2F%2Fgunantos.github.io)](https://gunantos.github.io)
 
 ### Connect with me:
