@@ -1,6 +1,6 @@
 ### Hi there, I'm Gunanto Simamora - [appkita][website] 👋
 
-[![Website](https://img.shields.io/website?label=appkita.site&style=for-the-badge&url=https%3A%2F%2Fapp-kita.com)](https://appkita.site)
+[![Website](https://img.shields.io/website?label=boxkode.my.id&style=for-the-badge&url=https%3A%2F%2Fapp-kita.com)](https://boxkode.my.id)
 [![Website](https://img.shields.io/website?label=gunantos.github.io&style=for-the-badge&url=https%3A%2F%2Fgunantos.github.io)](https://gunantos.github.io)
 
 ### Connect with me:
@@ -57,19 +57,6 @@
 
 ---
 
-### 📺 Latest Youtube Videos
-
-<!-- YOUTUBE:START -->
-<!-- YOUTUBE:END -->
-
----
-
-### 📕 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
----
 
 <img aligh="left" alt="gunantos's github stats" src="https://github-readme-stats.vercel.app/api?username=gunantos">
 
