@@ -1,60 +1,85 @@
-### Halo, Saya Gunanto Simamora 👋
+# Halo! Saya Gunanto Simamora 👋
 
-Seorang pengembang dengan spektrum keahlian yang luas (*full-stack*), mencakup **Web**, **Mobile (iOS/Android)**, **Desktop**, hingga **IoT (Internet of Things)**. Saat ini, saya secara aktif mendalami bidang **Artificial Intelligence (AI)** dengan memanfaatkan Python untuk membangun solusi inovatif.
+### 👨‍💻 Pengembang Full-Stack, IoT Integrator, & AI Enthusiast
+
+Saya adalah seorang pengembang yang membangun solusi inovatif melintasi spektrum teknologi yang luas: dari Backend performa tinggi (**PHP, Node.js**) dan Frontend modern (**React, Vue, Tailwind**), hingga aplikasi **Mobile (Flutter/RN)**, **Desktop (C#/Electron)**, serta sistem **IoT** dan **AI** menggunakan Python.
 
 ---
 
-### 🛠️ Keahlian & Teknologi Inti
+### 💡 Keahlian Utama (Tools & Teknologi)
 
-*Kami menggunakan kartu dinamis di bawah untuk daftar bahasa berdasarkan aktivitas repositori.*
+#### 💻 Backend, Server & Data
+* **PHP:** Keahlian luas, terutama dengan **Laravel** sebagai *framework* unggulan.
+* **Node.js:** Untuk API dan *server-side* yang skalabel.
+* **Python:** Inti untuk pengembangan AI/IoT.
+* *Saat ini sedang fokus mempelajari **Golang**.*
 
-#### 🖥️ Desktop & Bahasa Spesifik
-* **C#** (Siap untuk pengembangan Desktop, Enterprise, dan Web menggunakan .NET)
+| Badges | | |
+| :--- | :--- | :--- |
+| ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Golang](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) | |
+
+#### 🌐 Frontend & Styling
+* **Frameworks:** ReactJS, VueJS
+* **Styling:** Bootstrap, Tailwind CSS
+
+| Badges | | | |
+| :--- | :--- | :--- | :--- |
+| ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) | ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) |
+
+#### 📱 Mobile, Desktop & Cross-Platform
+* **Mobile:** Flutter, React Native, Expo
+* **Desktop:** C#, Electron
+
+| Badges | | |
+| :--- | :--- | :--- |
+| ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) | ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=white) | ![Expo](https://img.shields.io/badge/Expo-1F1E25?style=flat-square&logo=expo&logoColor=white) |
+| ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) | ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) | |
+
+<br/>
 
 #### ⚙️ Alat & Sistem Operasi
-* **Linux**
-* **Windows**
-* **Terminal**
-* **Git**
-* **VS Code**
-* **Android Studio**
+![Linux](https://img.shields.io/badge/-Linux-E34F26?style=flat-square&logo=linux&logoColor=white)
+![Windows](https://img.shields.io/badge/-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Terminal](https://img.shields.io/badge/Terminal-000000?style=flat-square&logo=gnome-terminal&logoColor=white)
 
 ---
 
-### 💻 Bahasa Pemrograman Teratas (Otomatis dari Repositori Publik)
+### 📊 Aktivitas GitHub & Statistik
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gunantos&layout=compact&langs_count=10&theme=default&hide_border=true" alt="Top Languages">
+#### 🏆 Prestasi GitHub Saya
+<img src="https://github-profile-trophy.vercel.app/?username=gunantos&theme=dark_fund" alt="GitHub Trophies" width="100%">
+
+#### 💻 Bahasa Favorit & Statistik Kontribusi
+| Top Languages | Stats Card |
+| :--- | :--- |
+| <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gunantos&layout=compact&langs_count=6&theme=dark&hide_border=true" alt="Top Languages"> | <img aligh="left" alt="gunantos's github stats" src="https://github-readme-stats.vercel.app/api?username=gunantos&show_icons=true&theme=dark&hide_border=true"> |
+
 ---
+
+### 💬 Hubungi & Berkolaborasi
+
+- 🔭 **Sedang Fokus:** Membangun solusi IoT terintegrasi dengan kemampuan kecerdasan buatan.
+- 🌱 **Eksplorasi:** Pembelajaran mendalam **Golang** untuk performa sistem, serta *Machine Learning* untuk *data-driven solutions*.
+- 👯 **Ajakan Kolaborasi:** Saya terbuka untuk proyek-proyek yang melibatkan perpaduan **IoT, AI, Mobile, dan Backend performa tinggi**.
+- 💬 **Tanyakan:** Pengembangan Full-Stack, Arsitektur Aplikasi Skalabel, atau implementasi Node.js/PHP.
 
 ### 🔗 Terhubung dengan Saya
 
 | Platform | Tautan |
 | :--- | :--- |
-| **Website** (boxkode) | [![Website](https://img.shields.io/website?label=boxkode.web.id&style=for-the-badge&url=https%3A%2F%2Fboxkode.web.id)](https://boxkode.web.id) |
-| **Website** (gunantos) | [![Website](https://img.shields.io/website?label=gunantos.github.io&style=for-the-badge&url=https%3A%2F%2Fgunantos.github.io)](https://gunantos.github.io) |
-| **LinkedIn** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/gunanto-simamora) |
-| **YouTube** | [![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCIXKz_L_ewTrqGuTs44y4_g) |
-| **Facebook** | [![Facebook](https://img.shields.io/badge/Facebook-andtho89-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://facebook.com/andtho89) |
-| **X (Twitter)** | [![X](https://img.shields.io/badge/X-app__kita-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/gunanto_mamora) |
-| **Instagram** | [![Instagram](https://img.shields.io/badge/Instagram-gunanto__mora-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/gunanto_mora) |
----
+| **Website Utama** | [![Website](https://img.shields.io/website?label=boxkode.web.id&style=for-the-badge&url=https%3A%2F%2Fboxkode.web.id)](https://boxkode.web.id) |
+| **Website (GitHub)** | [![Website](https://img.shields.io/website?label=gunantos.github.io&style=for-the-badge&url=https%3A%2F%2Fgunantos.github.io)](https://gunantos.github.io) |
+| **LinkedIn** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gunanto-simamora) |
+| **YouTube** | [![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCIXKz_L_ewTrqGuTs44y4_g) |
+| **X (Twitter)** | [![X](https://img.shields.io/badge/X-app__kita-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/gunanto_mamora) |
+| **Facebook** | [![Facebook](https://img.shields.io/badge/Facebook-andtho89-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/andtho89) |
+| **Instagram** | [![Instagram](https://img.shields.io/badge/Instagram-gunanto__mora-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/gunanto_mora) |
 
-### 📊 Statistik GitHub Saya
-
-<img aligh="left" alt="gunantos's github stats" src="https://github-readme-stats.vercel.app/api?username=gunantos&show_icons=true&theme=default&hide_border=true">
-
----
-
-### Aktifitas dan Fokus Saat Ini
-
-- 🔭 **Saya sedang mengerjakan:** Pengembangan solusi **IoT** kustom (seperti otomatisasi gerbang parkir) dan integrasi **Artificial Intelligence** menggunakan Python.
-- 🌱 **Saya sedang belajar:** Pemanfaatan mendalam **Machine Learning** dan *data-driven solutions* untuk aplikasi Web dan Mobile.
-- 👯 **Saya ingin berkolaborasi pada:** Proyek-proyek yang melibatkan gabungan antara **IoT, Web, dan AI**.
-- 💬 **Tanyakan kepada saya tentang:** Pengembangan Web, Aplikasi Mobile/Desktop (termasuk C#), implementasi IoT, atau Python untuk AI.
-
----
-
-[website]: https://app-kita.com
+[website]: [https://app-kita.com](https://boxkode.web.id)
 [facebook]: https://facebook.com/andtho89
 [twitter]: https://x.com/gunanto_mamora
 [youtube]: https://www.youtube.com/channel/UCIXKz_L_ewTrqGuTs44y4_g
