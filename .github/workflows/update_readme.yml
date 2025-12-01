@@ -1,4 +1,4 @@
-name: Update README with Languages
+name: Update README Top Languages
 
 on:
   schedule:
@@ -7,19 +7,28 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme-language:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate Top Languages Badges
-        # Menggunakan Action ini untuk membuat badge bahasa dinamis
-        uses: lgaida/github-action-for-readme@v1.1.0
+
+      # 1. GENERATE DAFTAR BAHASA BARU
+      # Mengganti Action yang error dengan action-lab/github-top-languages-action yang stabil
+      - name: Generate Top Languages List
+        uses: action-lab/github-top-languages-action@v1.0.0
         with:
-          # Token ini sudah tersedia secara otomatis di GitHub Actions
+          # Token ini sudah tersedia secara otomatis
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Nama section yang harus diupdate di README (sesuai placeholder di langkah 1)
-          target_section: languages
+          # Nama section placeholder di README Anda
+          SECTION_NAME: languages
           # Jumlah bahasa yang ingin ditampilkan
-          limit: 10
-          # Opsional: Jika Anda ingin badge tanpa label "Language"
-          no_label: true
+          LIST_SIZE: 10
+          # Opsional: untuk mengabaikan bahasa config/markup (seperti yang Anda inginkan)
+          IGNORED_LANGUAGES: "HTML, CSS, Shell, Roff, YAML, Dockerfile, Other"
+
+      # 2. COMMIT PERUBAHAN
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update: Top languages in README (Action)"
+          # File README akan otomatis diperbarui dan dicommit ke repo
