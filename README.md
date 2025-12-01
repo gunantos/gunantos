@@ -54,11 +54,13 @@ Saya adalah seorang pengembang yang membangun solusi inovatif melintasi spektrum
 <img src="https://github-profile-trophy.vercel.app/?username=gunantos&theme=dark_fund" alt="GitHub Trophies" width="100%">
 
 
-#### 💻 Bahasa Favorit & Statistik Kontribusi
-| Top Languages | Stats Card |
-| :--- | :--- |
-| | |
-| | |
+#### 📈 Statistik & Kebiasaan Coding
+<img src="https://raw.githubusercontent.com/gunantos/gunantos/main/github-metrics.svg" alt="GitHub Metrics" width="100%">
+
+<br/>
+
+#### 💻 Bahasa Favorit
+<img src="https://raw.githubusercontent.com/gunantos/gunantos/main/github-top-langs.svg" alt="Top Languages" width="100%">
 
 ### 💬 Hubungi & Berkolaborasi
 
