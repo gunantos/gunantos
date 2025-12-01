@@ -1,0 +1,25 @@
+name: Update README with Languages
+
+on:
+  schedule:
+    # Menjalankan setiap hari pada tengah malam UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme-language:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Top Languages Badges
+        # Menggunakan Action ini untuk membuat badge bahasa dinamis
+        uses: lgaida/github-action-for-readme@v1.1.0
+        with:
+          # Token ini sudah tersedia secara otomatis di GitHub Actions
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Nama section yang harus diupdate di README (sesuai placeholder di langkah 1)
+          target_section: languages
+          # Jumlah bahasa yang ingin ditampilkan
+          limit: 10
+          # Opsional: Jika Anda ingin badge tanpa label "Language"
+          no_label: true
