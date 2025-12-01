@@ -1,6 +1,6 @@
 ### Hi there, I'm Gunanto Simamora - [appkita][website] 👋
 
-[![Website](https://img.shields.io/website?label=boxkode.my.id&style=for-the-badge&url=https%3A%2F%2Fboxkode.web.id)](https://boxkode.web.id)
+[![Website](https://img.shields.io/website?label=boxkode.web.id&style=for-the-badge&url=https%3A%2F%2Fboxkode.web.id)](https://boxkode.web.id)
 [![Website](https://img.shields.io/website?label=gunantos.github.io&style=for-the-badge&url=https%3A%2F%2Fgunantos.github.io)](https://gunantos.github.io)
 
 ### Connect with me:
