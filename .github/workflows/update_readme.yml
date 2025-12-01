@@ -1,34 +1,59 @@
-name: Update README Top Languages
+name: Update Statistics from Private Repos
 
 on:
   schedule:
-    # Menjalankan setiap hari pada tengah malam UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Menjalankan setiap hari pada tengah malam UTC
+  workflow_dispatch: # Memungkinkan eksekusi manual
 
 jobs:
-  update-readme:
+  update-cards:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      # 1. GENERATE DAFTAR BAHASA BARU
-      # Mengganti Action yang error dengan action-lab/github-top-languages-action yang stabil
-      - name: Generate Top Languages List
-        uses: action-lab/github-top-languages-action@v1.0.0
+      # 1. GENERATE STATISTIK CARD (Dengan Private Repo)
+      - name: Generate GitHub Stats Card
+        uses: lowlighter/metrics@latest
         with:
-          # Token ini sudah tersedia secara otomatis
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Nama section placeholder di README Anda
-          SECTION_NAME: languages
-          # Jumlah bahasa yang ingin ditampilkan
-          LIST_SIZE: 10
-          # Opsional: untuk mengabaikan bahasa config/markup (seperti yang Anda inginkan)
-          IGNORED_LANGUAGES: "HTML, CSS, Shell, Roff, YAML, Dockerfile, Other"
+          # Token yang memiliki izin 'repo' untuk membaca data private
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }} 
+          
+          # Pengaturan Output File & Plugin
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          template: classic
+          output_action: none # Kami akan menggunakan commit manual di bawah
+          filename: github-metrics.svg
 
-      # 2. COMMIT PERUBAHAN
-      - name: Commit Changes
+      # 2. GENERATE TOP LANGUAGES CARD (Dengan Private Repo)
+      - name: Generate Top Languages Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          
+          # Pengaturan Output File & Plugin
+          template: classic
+          output_action: none
+          filename: github-top-langs.svg
+          base: "" # Tidak menampilkan statistik dasar di kartu ini
+          plugin_languages: yes
+          plugin_languages_threshold: 0%
+          plugin_languages_limit: 10
+          plugin_languages_skipped: "HTML, CSS, Shell, Roff, YAML, Other" # Abaikan bahasa markup
+
+      # 3. MENGGANTI KONTEN README
+      - name: Replace Content in README
+        run: |
+          # Dapatkan data SVG yang dihasilkan
+          STATS_SVG=$(cat github-metrics.svg)
+          LANGS_SVG=$(cat github-top-langs.svg)
+          
+          # Ganti placeholder di README.md
+          sed -i '//,//c\\n<img src="https://raw.githubusercontent.com/${{ github.repository }}/main/github-metrics.svg" alt="GitHub Stats" width="100%">\n' README.md
+          sed -i '//,//c\\n<img src="https://raw.githubusercontent.com/${{ github.repository }}/main/github-top-langs.svg" alt="Top Languages" width="100%">\n' README.md
+
+      # 4. COMMIT PERUBAHAN KE REPO
+      - name: Commit Files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update: Top languages in README (Action)"
-          # File README akan otomatis diperbarui dan dicommit ke repo
+          commit_message: "Automatic: Update GitHub metrics (Private Repo Included)"
