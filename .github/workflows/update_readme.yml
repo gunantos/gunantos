@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }} 
           # PERUBAHAN TAMPILAN: Menggunakan template flat
-          template: flat 
+          template: repository 
           output_action: directory # FIX: Pastikan file tersimpan untuk commit
           filename: github-metrics.svg 
           
@@ -37,7 +37,7 @@ jobs:
         with:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           # PERUBAHAN TAMPILAN: Menggunakan template flat
-          template: flat
+          template: classic
           output_action: directory # FIX: Pastikan file tersimpan untuk commit
           filename: github-top-langs.svg 
           base: "" 
