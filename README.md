@@ -73,7 +73,7 @@ Saya adalah seorang pengembang yang membangun solusi inovatif melintasi spektrum
 
 | Platform | Tautan |
 | :--- | :--- |
-| **Website Utama** | [![Website](https://img.shields.io/website?label=boxkode.my.id&style=for-the-badge&url=https%3A%2F%2Fboxkode.my.id)](https://boxkode.my.id) |
+| **Website Utama** | [![Website](https://img.shields.io/website?label=boxkode.web.id&style=for-the-badge&url=https%3A%2F%2Fboxkode.web.id)](https://boxkode.web.id) |
 | **Website (GitHub)** | [![Website](https://img.shields.io/website?label=gunantos.github.io&style=for-the-badge&url=https%3A%2F%2Fgunantos.github.io)](https://gunantos.github.io) |
 | **LinkedIn** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gunanto-simamora) |
 | **YouTube** | [![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCIXKz_L_ewTrqGuTs44y4_g) |
@@ -81,7 +81,7 @@ Saya adalah seorang pengembang yang membangun solusi inovatif melintasi spektrum
 | **Facebook** | [![Facebook](https://img.shields.io/badge/Facebook-andtho89-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/andtho89) |
 | **Instagram** | [![Instagram](https://img.shields.io/badge/Instagram-gunanto__mora-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/gunanto_mora) |
 
-[website]: [https://app-kita.com](https://boxkode.my.id)
+[website]: [https://app-kita.com](https://boxkode.web.id)
 [facebook]: https://facebook.com/andtho89
 [twitter]: https://x.com/gunanto_mamora
 [youtube]: https://www.youtube.com/channel/UCIXKz_L_ewTrqGuTs44y4_g
